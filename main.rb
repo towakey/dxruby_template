@@ -13,8 +13,11 @@ class GameMain
         
         Window.caption = @TITLE
     end
+    def draw
+    end
     def loop
         Window.loop do
+            self.draw
         end
     end
 end
